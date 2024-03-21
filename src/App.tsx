@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import { SelectedPage } from "./components/Navbar/Shared/types";
+import { SelectedPage } from "./components/Shared/types";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
